@@ -86,7 +86,7 @@ Save and reload; see [reloading edits](../../README.md#reloading-edits).
 
 ## Compatibility and cost
 
-Uses only the preset effects API and the theme palette; tested with Umbriel `1bbbf155d25b`. No previous-frame feedback buffers are used and the window is never sampled. The shader reads `umbriel_time`, so it keeps requesting frames while a window is focused. Each border fragment evaluates about a dozen 4-octave noise lookups (twice near the top-left corner, where the perimeter seam is blended), plus compositor border light. No performance benchmark is claimed.
+Uses only the preset effects API and the theme palette; tested with Umbriel `1bbbf155d25b`. No previous-frame feedback buffers are used and the window is never sampled. The shader reads `umbriel_time`, so it keeps requesting frames while a window is focused. Each border fragment within reach of the edge evaluates four 4-octave noise sums and two single noise lookups, all in bounded loops. These are doubled within 60 logical pixels of the top-left corner, where the perimeter seam is blended. Compositor border light is added on top. No performance benchmark is claimed.
 
 The preview does not verify HDR, rotated outputs, fractional scaling or motion quality.
 

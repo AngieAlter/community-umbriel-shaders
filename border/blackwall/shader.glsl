@@ -149,7 +149,8 @@ vec4 border(vec2 uv) {
     float seam = smoothstep(perim - 60.0, perim, s);
     if (seam > 0.0) f = mix(f, bf_field(s - perim, dd, t), seam);
 
-    float pulse = 0.75 + 0.25 * pow(0.5 + 0.5 * sin(6.2831853 * t / PULSE_PERIOD), 3.0);
+    float beat = 0.5 + 0.5 * sin(6.2831853 * t / PULSE_PERIOD);
+    float pulse = 0.75 + 0.25 * beat * beat * beat;
 
     // Body: near-black flesh shading to deep crimson at the hot core.
     float core = exp(-dd / 9.0);
