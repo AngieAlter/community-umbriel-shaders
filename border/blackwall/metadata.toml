@@ -1,0 +1,9 @@
+publish = false
+name = "Blackwall"
+author = "AngieAlter"
+description = "A hostile black data barrier writhes around the focused window in your theme accents or manual colours, with hot veins, lashing tendrils, drifting data blocks and glitch tears."
+license = "MIT"
+notice_files = ["LICENSES/AngieAlter-MIT.txt", "border/blackwall/README.md"]
+uses = ["effects.border"]
+tags = ["glitch", "glow"]
+tested_on = ["0.1.0 (1bbbf155d25b)"]

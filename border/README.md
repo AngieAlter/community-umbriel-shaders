@@ -26,6 +26,7 @@
 | <img src="rainbow/preview.png" width="160" alt="rainbow preview"> | [rainbow](rainbow/) | A glossy rainbow ripple around the window edge. |
 | <img src="sentient-runner/preview.png" width="160" alt="sentient-runner preview"> | [sentient-runner](sentient-runner/) | Green-and-gold circuit tracks with branching links and moving packets. |
 | <img src="sentient-spark/preview.png" width="160" alt="sentient-spark preview"> | [sentient-spark](sentient-spark/) | Independent emerald and white micro-discharges around the whole perimeter. |
+| <img src="blackwall/preview.png" width="160" alt="Blackwall preview"> | [Blackwall](blackwall/) | A hostile black data barrier, theme-coloured or crimson, with writhing veins, lashing tendrils, drifting data blocks and glitch tears. |
 | <img src="heartbeat/preview.png" width="160" alt="Heartbeat preview"> | [Heartbeat](heartbeat/) | Viscous red border with heartbeat. |
 | <img src="somethings-watching/preview.png" width="160" alt="Something’s Watching preview"> | [somethings-watching](somethings-watching/) | Twisting vines, growing jack-o’-lanterns, blinking cat eyes and three marching skeletons, spanning the frame and inward overlay. |
 
